@@ -16,5 +16,9 @@ public void systemttest() {
 @Test
 public void systemttest1() {
 	System.out.println("systemtest passed1");
+}
+	@Test
+public void systemttest2() {
+	System.out.println("systemtest passed1");
 }	
 }
