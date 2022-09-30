@@ -21,4 +21,7 @@ public void systemttest1() {
 public void systemttest2() {
 	System.out.println("systemtest passed1");
 }	
+	public void systemttest3() {
+	System.out.println("systemtest passed1");
+}	
 }
