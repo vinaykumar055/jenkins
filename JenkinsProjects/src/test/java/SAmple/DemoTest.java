@@ -13,4 +13,8 @@ public void regression()
 public void systemttest() {
 	System.out.println("systemtest passed");
 }
+@Test
+public void systemttest1() {
+	System.out.println("systemtest passed1");
+}	
 }
