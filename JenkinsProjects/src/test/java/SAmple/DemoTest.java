@@ -1,13 +1,16 @@
 package SAmple;
 
 import org.testng.annotations.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class DemoTest 
 {
 	@Test
 public void regression()
 {
-	System.out.println("regression test case passed");
+	WebDriverManager.chromedriver().setup();
+		WebDriver driver=new ChromeDriver();
 }
 	@Test
 public void systemttest() {
